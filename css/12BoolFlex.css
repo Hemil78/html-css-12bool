@@ -23,9 +23,9 @@
     display: flex;
 }
 
-.row .col-6 div,
-.row .col-7 div,
-.row .col-5 div{
+.row .col-xs-6 div,
+.row .col-xs-7 div,
+.row .col-xs-5 div{
     background-color: lightgreen;
     color: rgb(0, 110, 255);
     border: 1px solid rgb(0, 110, 255);
@@ -53,75 +53,75 @@
 
 /* columns */
 
-.col-1{
+.col-xs-1{
     flex-basis: calc((100% / 12) * 1);
 }
-.col-2{
+.col-xs-2{
     flex-basis: calc((100% / 12) * 2);
 }
-.col-3{
+.col-xs-3{
     flex-basis: calc((100% / 12) * 3);
 }
-.col-4{
+.col-xs-4{
     flex-basis: calc((100% / 12) * 4);
 }
-.col-5{
+.col-xs-5{
     flex-basis: calc((100% / 12) * 5);
 }
-.col-6{
+.col-xs-6{
     flex-basis: calc((100% / 12) * 6);
 }
-.col-7{
+.col-xs-7{
     flex-basis: calc((100% / 12) * 7);
 }
-.col-8{
+.col-xs-8{
     flex-basis: calc((100% / 12) * 8);
 }
-.col-9{
+.col-xs-9{
     flex-basis: calc((100% / 12) * 9);
 }
-.col-10{
+.col-xs-10{
     flex-basis: calc((100% / 12) * 10);
 }
-.col-11{
+.col-xs-11{
     flex-basis: calc((100% / 12) * 11);
 }
-.col-12{
+.col-xs-12{
     flex-basis: calc((100% / 12) * 12);
 }
 
 /* offset */
 
-.space-offset-1{
+.space-offset-xs-1{
     margin-left: calc((100% / 12) * 1);
 }
-.space-offset-2{
+.space-offset-xs-2{
     margin-left: calc((100% / 12) * 2);
 }
-.space-offset-3{
+.space-offset-xs-3{
     margin-left: calc((100% / 12) * 3);
 }
-.space-offset-4{
+.space-offset-xs-4{
     margin-left: calc((100% / 12) * 4);
 }
-.space-offset-5{
+.space-offset-xs-5{
     margin-left: calc((100% / 12) * 5);
 }
-.space-offset-6{
+.space-offset-xs-6{
     margin-left: calc((100% / 12) * 6);
 }
-.space-offset-7{
+.space-offset-xs-7{
     margin-left: calc((100% / 12) * 7);
 }
-.space-offset-8{
+.space-offset-xs-8{
     margin-left: calc((100% / 12) * 8);
 }
-.space-offset-9{
+.space-offset-xs-9{
     margin-left: calc((100% / 12) * 9);
 }
-.space-offset-10{
+.space-offset-xs-10{
     margin-left: calc((100% / 12) * 10);
 }
-.space-offset-11{
+.space-offset-xs-11{
     margin-left: calc((100% / 12) * 11);
 }
