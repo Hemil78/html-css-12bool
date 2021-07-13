@@ -7,26 +7,37 @@
 /* debug */
 
 .debug .container{
-    min-height: 30px;
+    min-height: 20px;
 }
 .debug [class*="col-"] {
-    min-height: 30px;
+    min-height: 20px;
     background-color: rgb(0, 110, 255);
     color: white;
     border: 1px solid white;
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
     padding: 8px;
 }
 
-.row .col-6{
+.row-flex{
     display: flex;
 }
 
-.row .col-6 div{
+.row .col-6 div,
+.row .col-7 div,
+.row .col-5 div{
     background-color: lightgreen;
     color: rgb(0, 110, 255);
     border: 1px solid rgb(0, 110, 255);
+}
+
+.height-fixed{
+    height: 40px;
+}
+#space-top{ margin-top: 15px;}
+
+.title{
+    padding: 10px 0;
 }
 
 /* framework */
@@ -77,4 +88,40 @@
 }
 .col-12{
     flex-basis: calc((100% / 12) * 12);
+}
+
+/* offset */
+
+.space-offset-1{
+    margin-left: calc((100% / 12) * 1);
+}
+.space-offset-2{
+    margin-left: calc((100% / 12) * 2);
+}
+.space-offset-3{
+    margin-left: calc((100% / 12) * 3);
+}
+.space-offset-4{
+    margin-left: calc((100% / 12) * 4);
+}
+.space-offset-5{
+    margin-left: calc((100% / 12) * 5);
+}
+.space-offset-6{
+    margin-left: calc((100% / 12) * 6);
+}
+.space-offset-7{
+    margin-left: calc((100% / 12) * 7);
+}
+.space-offset-8{
+    margin-left: calc((100% / 12) * 8);
+}
+.space-offset-9{
+    margin-left: calc((100% / 12) * 9);
+}
+.space-offset-10{
+    margin-left: calc((100% / 12) * 10);
+}
+.space-offset-11{
+    margin-left: calc((100% / 12) * 11);
 }
